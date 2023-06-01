@@ -29,6 +29,11 @@ namespace fukuv0601
         {
             label1.Left += vx;
             label1.Top += vy;
+
+            if (label1. Left < 0)
+                vx = 10;
+            if (label1. Top < 0)
+                vy = 10;
         }
 
         private void label1_Click(object sender, EventArgs e)
