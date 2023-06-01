@@ -32,11 +32,11 @@ namespace fukuv0601
 
             if (label1.Left < 0)
                 vx = 10;
+            else if (label1.Right > 638)
+                vx = -10;
             if (label1.Top < 0)
                 vy = 10;
-            if (label1.Right > 816)
-                vx = -10;
-            if (label1.Bottom > 489)
+            else if (label1.Bottom > 385)
                 vy = -10;
         }
 
