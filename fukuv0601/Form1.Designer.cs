@@ -53,6 +53,7 @@
             button1.TabIndex = 1;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
+            button1.Visible = false;
             button1.Click += button1_Click;
             // 
             // button2
@@ -63,6 +64,7 @@
             button2.TabIndex = 2;
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
+            button2.Visible = false;
             button2.Click += button2_Click;
             // 
             // timer1
